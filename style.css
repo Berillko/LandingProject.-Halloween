@@ -1,0 +1,697 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    font-size: 1px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-background {
+    max-width: 1920px;
+    min-height: 740px;
+    background: url(img/bg.png) no-repeat center;
+    margin: 0 auto;
+}
+
+.main-title,
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.main-title {
+    max-width: 982px;
+    padding-top: 190px;
+    font-size: 64px;
+    line-height: 95px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.stats {
+    background-color: #F7F7F7;
+    position: relative;
+    top: -150px;
+}
+
+.stats-flex {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stats-flex-item p {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stats-flex-item {
+    margin: 57px auto;
+    flex-basis: 24%;
+}
+
+.number {
+    font-size: 72px;
+    line-height: 107px;
+    color: #F7654A;
+}
+
+.number+p {
+    margin-top: 10px;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.stats-flex-item p:last-child {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    ;
+}
+
+.projects {
+    margin-top: -100px;
+    margin-bottom: 70px;
+}
+
+.projects-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects-flex img {
+    padding-bottom: 35px;
+}
+
+.projects-flex-item {
+    margin: 0 auto;
+    flex-basis: 33%;
+}
+
+.projects-flex-item p {
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+
+.projects-flex-item p:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -20px;
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+}
+
+.request {
+    background-color: #F7654A;
+    text-transform: uppercase;
+    margin-bottom: 110px;
+}
+
+.request-title {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.request-main-title {
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    margin: 30px 0 0 0;
+}
+
+.request-main-title+p {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    margin: 20px 0 45px 0;
+}
+
+.request-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    padding: 14px 30px 14px 65px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    width: 18px;
+    height: 21px;
+    background: url(img/envelope.png) no-repeat;
+}
+
+.services-grid {
+    margin-bottom: 145px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.services-grid-item {
+    position: relative;
+    background-color: #F7F7F7;
+    min-width: 350px;
+    min-height: 250px;
+    text-align: center;
+}
+
+.services-grid-item p {
+    width: 110px;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.services-grid-item .services-one::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 55px;
+    left: 43%;
+    background: url(img/services-1.svg) no-repeat;
+}
+
+.services-grid-item .services-two::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 55px;
+    left: 43%;
+    background: url(img/services-2.svg) no-repeat;
+}
+
+.services-grid-item .services-three::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 55px;
+    left: 43%;
+    background: url(img/services-3.svg) no-repeat;
+}
+
+.services-grid-item .services-four::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 55px;
+    left: 43%;
+    background: url(img/services-4.svg) no-repeat;
+}
+
+.services-grid-item .services-five::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 55px;
+    left: 43%;
+    background: url(img/services-5.svg) no-repeat;
+}
+
+.services-grid-item .services-six::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 55px;
+    left: 43%;
+    background: url(img/services-5.svg) no-repeat;
+}
+
+.gallery {
+    margin-bottom: 115px;
+}
+
+.gallery-flex {
+    max-width: 1900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.gallery-flex-item {
+    width: 475px;
+    margin: -2px auto;
+}
+
+.gallery-flex-item img {
+    width: 475px;
+    height: 402px;
+}
+
+.gallery-flex-item::before {
+    content: '';
+    position: absolute;
+    width: 475px;
+    height: 402px;
+    background-color: rgba(64, 65, 73, 0.5);
+    z-index: 100;
+}
+
+.gallery-flex-item:hover::before {
+    content: '';
+    position: absolute;
+    width: 475px;
+    height: 402px;
+    background-color: rgba(64, 65, 73, 0);
+    z-index: 100;
+}
+
+.reviews {
+    margin-bottom: 150px;
+}
+
+.reviews-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reviews-flex-item {
+    flex-basis: 32%;
+}
+
+.review-body {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+    background-color: #f7f7f7;
+    max-height: 259px;
+    padding: 80px 30px 40px 30px;
+    margin: 0;
+}
+
+.review-name {
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
+
+.review-body::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 35px;
+    left: 30px;
+    background: url(img/bq.svg) no-repeat;
+}
+
+.contacts {
+    text-transform: uppercase;
+    margin-bottom: 150px;
+}
+
+.contacts h2 {
+    margin-bottom: 110px;
+}
+
+.contacts-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts-flex-item {
+    position: relative;
+    flex-basis: 22%;
+    margin: 0 auto;
+}
+
+.contacts-flex-item p {
+    text-align: center;
+    margin: 0;
+}
+
+.contacts-flex-item p:first-child {
+    color: #999999;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+
+.contacts-flex-item p:first-child~p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.contacts-one::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -50px;
+    left: 45%;
+    background: url(img/marker.svg) no-repeat;
+}
+
+.contacts-two::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -55px;
+    left: 45%;
+    background: url(img/phone.svg) no-repeat;
+}
+
+.contacts-three::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -55px;
+    left: 42%;
+    background: url(img/watch.svg) no-repeat;
+}
+
+.contacts-four::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -55px;
+    left: 43%;
+    background: url(img/letter.svg) no-repeat;
+}
+
+.author {
+    background-color: #404149;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.author-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1430px) and (max-width: 1899px) {
+    .gallery-flex {
+        max-width: 1425px;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        justify-content: center;
+    }
+    .reviews-flex-item {
+        flex-basis: 49%;
+    }
+    .reviews {
+        margin-bottom: 30px;
+    }
+    .request {
+        margin-bottom: 40px;
+    }
+    .main-title {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1429px) {
+    .gallery-flex {
+        max-width: 950px;
+    }
+    .services-grid {
+        grid-template-columns: repeat(2, 350px);
+        grid-gap: 60px;
+        justify-content: center;
+    }
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 350px);
+        grid-gap: 60px;
+        justify-content: center;
+    }
+    .reviews-flex-item {
+        flex-basis: 49%;
+    }
+    .reviews {
+        margin-bottom: 30px;
+    }
+    .request {
+        margin-bottom: 40px;
+    }
+    .contacts-flex-item {
+        flex-basis: 45%;
+        margin: 0 auto 80px auto;
+    }
+    .contacts {
+        margin-bottom: 60px;
+    }
+    .contacts-flex-item p:first-child {
+        margin-bottom: 0;
+    }
+    .main-title {
+        padding-top: 100px;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: 350px;
+        justify-content: center;
+    }
+    .services-grid-item {
+        max-width: 350px;
+        min-height: 220px;
+    }
+    .reviews-flex-item {
+        flex-basis: 99%;
+    }
+    .reviews {
+        margin-bottom: 30px;
+    }
+    .request {
+        margin-bottom: 40px;
+    }
+    .request-flex {
+        flex-direction: column;
+    }
+    .request-title {
+        text-align: center;
+    }
+    .request-main-title+p {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 10px 0;
+    }
+    .button {
+        margin-bottom: 10px;
+    }
+    .stats-flex-item {
+        flex-basis: 48%;
+    }
+    .contacts-flex-item {
+        flex-basis: 45%;
+        margin: 0 auto 80px auto;
+    }
+    .contacts {
+        margin-bottom: 60px;
+    }
+    .contacts-flex-item p:first-child {
+        margin-bottom: 0;
+    }
+    .main-title {
+        padding-top: 100px;
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .title {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .main-background {
+        min-height: 460px;
+    }
+    .author-flex p:first-child {
+        text-align: left;
+    }
+    .author-flex p:last-child {
+        text-align: right;
+    }
+    .projects-flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .projects-flex img {
+        max-width: 98%;
+    }
+    .projects-flex-item {
+        flex-basis: 98%;
+    }
+}
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    .reviews-flex-item {
+        flex-basis: 99%;
+    }
+    .stats-flex-item {
+        flex-basis: 98%;
+    }
+    .contacts-flex-item {
+        flex-basis: 95%;
+        margin: 0 auto 80px auto;
+    }
+    .contacts {
+        margin-bottom: 0;
+    }
+    .contacts-flex-item p:first-child {
+        margin-bottom: 0;
+    }
+    .main-title {
+        padding-top: 50px;
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .title {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .main-background {
+        min-height: 460px;
+    }
+    .gallery-flex {
+        max-width: 99%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .gallery-flex-item {
+        width: 99%;
+        margin: -2px auto;
+    }
+    .gallery-flex-item img {
+        width: 99%;
+        height: auto;
+    }
+    .gallery-flex-item::before {
+        content: '';
+        position: absolute;
+        width: 99%;
+        height: 99%;
+        background-color: rgba(64, 65, 73, 0);
+    }
+    .projects-flex img {
+        max-width: 98%;
+    }
+    .projects-flex-item {
+        margin: 0 auto;
+        flex-basis: 98%;
+    }
+}
+
+
+/* Iphone 5 */
+
+@media (max-width: 320px) {
+    .services-grid {
+        justify-content: center;
+    }
+    .services-grid-item {
+        width: 95%;
+    }
+    .reviews-flex-item {
+        flex-basis: 99%;
+    }
+    .stats-flex-item {
+        flex-basis: 98%;
+    }
+    .contacts-flex-item {
+        flex-basis: 95%;
+        margin: 0 auto 80px auto;
+    }
+    .contacts {
+        margin-bottom: 0;
+    }
+    .contacts-flex-item p:first-child {
+        margin-bottom: 0;
+    }
+    .main-title {
+        padding-top: 50px;
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .title {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .main-background {
+        min-height: 460px;
+    }
+}
